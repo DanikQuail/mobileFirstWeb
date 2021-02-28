@@ -1,0 +1,92 @@
+.sidenav {
+    margin: 0;
+    padding: 0;
+    top: 1px;
+    width: 100%;
+    background-color: #181818;
+    position: relative;
+    overflow: auto;
+    border-bottom: 2px solid #0DFDD8;
+    border-top: 2px solid #0DFDD8;
+    font-family: "Roboto Medium", sans-serif;
+}
+.boxik\:\){
+    color: white;
+    display: none;
+}
+.sidenav a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    float: left;
+}
+
+
+.sidenav a.active {
+    color: #0DFDD8;
+}
+
+
+.sidenav a:hover:not(.active) {
+    background-color: #555;
+    color: #0DFDD8;
+}
+
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+.dropdown {
+    display: none;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .sidenav {
+        width: 100%;
+        height: auto;
+        position: fixed;
+        top: 7px;
+    }
+    .sidenav a {display: inline-block}
+    .boxik\:\){
+        display: block;
+        position: fixed;
+        right: 0;
+        top: 0;
+        margin-top: 25px;
+        margin-right: 30px;
+    }
+    .dropdown {
+        position: relative;
+        display: block;
+
+    }
+    .dropdown-content {
+        display: none;
+        position: fixed;
+        background-color: #181818;
+        min-width: 160px;
+        padding: 12px 16px;
+        right: 0;
+        top: 0;
+        margin-top: 40px;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+
+    .papatext{
+        display: none;
+    }
+}
